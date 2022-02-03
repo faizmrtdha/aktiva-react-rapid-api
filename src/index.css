@@ -21,3 +21,10 @@ code {
 .card-rank {
   width: 200px;
 }
+
+
+.title-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
