@@ -11,7 +11,7 @@ export const coinsAPI = axios.get("https://coinranking1.p.rapidapi.com/coins", {
     tiers: "1",
     orderBy: "marketCap",
     orderDirection: "desc",
-    limit: "50",
+    limit: "10",
     offset: "0",
   },
 });
