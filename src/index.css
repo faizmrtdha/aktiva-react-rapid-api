@@ -3,13 +3,29 @@
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 10px 10px;
   grid-template-areas:
-    ". ."
-    ". ."
-    ". .";
+    ". . . . ."
+}
+
+@media screen {}
+
+.title-global {
+  margin-top: 20px;
 }
 
 .title-card {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.row-stats {
+  margin-top: 30px;
+}
+
+.title-stats {
+  color: grey;
+}
+
+.p-stats {
+  font-size: 24px;
 }
